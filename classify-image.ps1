@@ -10,7 +10,7 @@ if ($args.count -gt 0 -And $args[0] -in (1..84))
     $img_num = $args[0]
 }
 
-$img = "https://github.com/Gilaufen/Sesion1/blob/main/custom/foto-$($img_num).jpg"
+$img = "https://raw.githubusercontent.com/Gilaufen/Sesion1/blob/main/custom/foto-$($img_num).jpg"
 
 $headers = @{}
 $headers.Add( "Prediction-Key", $predictionKey )
