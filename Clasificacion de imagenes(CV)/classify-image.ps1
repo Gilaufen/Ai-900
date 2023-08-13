@@ -1,5 +1,5 @@
-$predictionUrl = "https://csandreacustom.cognitiveservices.azure.com/customvision/v3.0/Prediction/441eace9-0db4-4b51-b15d-ef65e8b82fff/classify/iterations/Iteration1/url"
-$predictionKey = "299096d5acf840d6b4306a100018b32c"
+$predictionUrl = "url"
+$predictionKey = "key"
 
 # Code to call Custom Vision service for image classification
 
