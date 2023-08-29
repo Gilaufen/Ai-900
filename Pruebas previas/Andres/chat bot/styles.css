@@ -1,0 +1,17 @@
+/* Puedes personalizar estos estilos según tus preferencias */
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+#chat-container {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+}
