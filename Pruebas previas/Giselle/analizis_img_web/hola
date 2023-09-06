@@ -1,0 +1,82 @@
+{
+  "customModelResult": {
+    "tagsResult": {
+      "values": [
+        {
+          "name": "string",
+          "confidence": 0.0
+        }
+      ]
+    },
+    "objectsResult": {
+      "values": [
+        {
+          "id": "string",
+          "boundingBox": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          },
+          "tags": [
+            {
+              "name": "string",
+              "confidence": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "captionResult": {
+    "text": "string",
+    "confidence": 0.0
+  },
+  "objectsResult": {
+    "values": [
+      {
+        "id": "string",
+        "boundingBox": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "tags": [
+          {
+            "name": "string",
+            "confidence": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  "denseCaptionsResult": {
+    "values": [
+      {
+        "text": "string",
+        "confidence": 0.0,
+        "boundingBox": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      }
+    ]
+  },
+  "modelVersion": "string",
+  "metadata": {
+    "width": 0,
+    "height": 0
+  },
+  "tagsResult": {
+    "values": [
+      {
+        "name": "string",
+        "confidence": 0.0
+      }
+    ]
+  }
+  
+}

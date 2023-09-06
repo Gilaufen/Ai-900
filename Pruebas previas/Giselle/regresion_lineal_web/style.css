@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.principal{
+    background-color: rgb(50, 50, 50);
+    width: 50%;
+    height: 500px;
+    margin-top: 5%;
+    border-radius: 20px;
+    border:2px solid powderblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-title{
+    font-size: 40px;
+    color: powderblue;
+    margin-bottom: 10%;
+}
+
+.data{
+    justify-content: center;
+    align-items: center;    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+input[type="number"]{
+    padding: 2%;
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 2%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+button{
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 5%;
+    background-color: rgb(0, 26, 29);
+    border: none;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(11, 74, 82);
+    cursor: pointer;
+}
