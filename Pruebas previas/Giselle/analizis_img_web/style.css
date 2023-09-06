@@ -16,8 +16,8 @@ body{
     display: flex;
     background-color: black;
     color: aliceblue;
-    width: 50%;
-    height: 500px;
+    width: 60%;
+    height: 150%;
     font-family: 'Quicksand', sans-serif;
     border-radius: 30px;
     border: 2px solid aqua;
@@ -41,9 +41,10 @@ button{
     cursor: pointer;
 }
 
-#result {
+#result, #description, #tags, #objects{
     color: white;
     font-size: 20px;
     margin-top: 5%;
     border-bottom: 1px solid aqua;
+    max-width: 90%;
 }
