@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     analyzeButton.addEventListener("click", analyzeImage);
 
     function analyzeImage() {
-        const predictionUrl = "https://demoandrea.cognitiveservices.azure.com/customvision/v3.0/Prediction/26693232-c2e9-4faf-aab4-71003b4bd759/classify/iterations/Iteration1/url";
-        const predictionKey = "e1da8fdd622a4356a3c465e3af6cc499";
+        const Url = "https://demoandre.cognitiveservices.azure.com/customvision/v3.0/Prediction/45bf4847-31d8-4697-89a7-e7c19eaa7b09/classify/iterations/final/url";
+        const Key = "e9898a7d0ef74323894ae58b05ada05f";
         const imageUrl = imageUrlInput.value;
 
         if (!imageUrl) {
@@ -16,14 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         const headers = new Headers();
-        headers.append("Prediction-Key", predictionKey);
+        headers.append("Prediction-Key", Key);
         headers.append("Content-Type", "application/json");
 
         const body = JSON.stringify({ url: imageUrl });
 
         resultDiv.innerHTML = "Analizando...";
 
-        fetch(predictionUrl, {
+        fetch(Url, {
             method: "POST",
             headers: headers,
             body: body

@@ -1,1 +1,26 @@
-hola :3
+//prueba para que detecte personas con y sin mascarilla :D
+
+
+//response json => Documentación de custom vision
+
+
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "project": "00000000-0000-0000-0000-000000000000",
+  "iteration": "00000000-0000-0000-0000-000000000000",
+  "created": "string",
+  "predictions": [
+    {
+      "probability": 0.0,
+      "tagId": "00000000-0000-0000-0000-000000000000",
+      "tagName": "string",
+      "boundingBox": {
+        "left": 0.0,
+        "top": 0.0,
+        "width": 0.0,
+        "height": 0.0
+      },
+      "tagType": "Regular"
+    }
+  ]
+}
