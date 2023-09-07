@@ -1,0 +1,59 @@
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.coordenadas {
+    position: absolute;
+    border: 2px solid green; /* Puedes cambiar el color aquí */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+body{
+    background-color: rgb(49, 49, 49);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.analize-box{
+    margin-top: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    width: 50%;
+    height: 500px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 30px;
+    border: 2px solid aqua;
+}
+
+input{
+    padding: 2%;
+    border-radius: 5px;
+    width: 60%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+button{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 5%;
+    padding: 2%;
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    color: white;
+    font-size: 20px;
+    margin-top: 5%;
+    border-bottom: 1px solid aqua;
+}
