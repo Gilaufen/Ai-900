@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         const headers = new Headers();
-        headers.append("Ocp-Apim-Subscription-Key", key);
+        headers.append("Prediction-key", key);
         headers.append("Content-Type", 'application/json');
 
         const body = JSON.stringify({ url: imageURL });

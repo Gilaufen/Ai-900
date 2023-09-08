@@ -13,9 +13,14 @@
         <h1>Detección de objetos</h1>
         <input type="text" id="imageUrl" placeholder="Introduce la URL de la imagen">
         <button  id="analyzeButton">Cargar Imagen</button>
+    <div id="result"></div>
     </div>
-    <div class="analize-box container" id="result">
-        <img id="imagenObjeto" style="max-width: 100%">
+    <div class="container" >
+        <img id="imagenObjeto">
+        <div id="coordenadas" class="coordenadas">
+            <div id="tag" class="tag"></div>
+            <div id="probabilidad" class="probabilidad"></div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
