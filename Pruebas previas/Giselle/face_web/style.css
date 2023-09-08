@@ -1,0 +1,74 @@
+.container {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin-top: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 30px;
+    border: 2px solid aqua;
+}
+
+.coordenadas {
+    position: absolute;
+    border: 3px solid rgba(255, 0, 0, 0.445);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+body {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.analize-box {
+    margin-top: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    width: 50%;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 30px;
+    border: 2px solid aqua;
+}
+
+input {
+    padding: 2%;
+    border-radius: 5px;
+    width: 60%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 5%;
+    padding: 2%;
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+img {
+    height: 500px;
+    width: 400px;
+}
+
+#result {
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid aqua;
+}
