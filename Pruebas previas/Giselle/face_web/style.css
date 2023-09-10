@@ -63,8 +63,8 @@ button {
 }
 
 img {
-    height: 500px;
-    width: 400px;
+    height: auto;
+    width: auto;
 }
 
 #result {

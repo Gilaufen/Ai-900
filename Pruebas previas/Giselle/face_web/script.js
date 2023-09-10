@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function analyzeImage() {
-        const Url = "https://carasandre.cognitiveservices.azure.com/";
-        const key = "947a7691ece046a8b2647074a8b0ee66";
+        const Url = "URL";
+        const key = "KEY   ";
         const imageUrl = imageUrlImg.value;
 
         if (!imageUrl) {
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
             .then(response => response.json())
             .then(result => {
-                console.log(result[0].faceRectangle);
+                console.log(result);
             
                 coordenadasDiv.style.height = `${result[0].faceRectangle.height}px`;
                 coordenadasDiv.style.width = `${result[0].faceRectangle.width}px`;
