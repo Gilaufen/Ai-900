@@ -22,6 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
             resultDiv.innerHTML = "Por favor ingrese una url...";
         }
 
+        const header = new Headers();
+        header.append("Prediction-key", key);
+        header.append("Content-Type", 'application/json');
+
         const body = JSON.stringify({ url: imageUrl });
 
         fetch(
