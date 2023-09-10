@@ -16,9 +16,9 @@ function addMessage(message, isUser) {
 
 function sendMessageToAzure(message) {
   // URL de predicción
-  const predictionUrl="https://chatbotbeta.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=chatbot-sena&api-version=2021-10-01&deploymentName=production";
+  const predictionUrl="ENDPOINT_HERE";
   // la clave de suscripción
-  const subscriptionKey="477049d56f3c47349771d5ea94a081ba";
+  const subscriptionKey="API_KEY_HERE";
 
   // Datos ficticios para la predicción
   const inputData = {
