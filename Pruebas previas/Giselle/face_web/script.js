@@ -47,7 +47,7 @@
         coordenadasDiv.style.left = `${result[0].faceRectangle.left}px`;
       });
   }
-  });
-}
+  };
+})
 
 // https://i.pinimg.com/originals/37/ea/96/37ea96c0d0ca2480a0084a2bd902bf67.jpg
