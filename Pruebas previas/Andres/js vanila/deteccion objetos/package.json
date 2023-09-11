@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Object detection using Azure services",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andres Felipe Silva",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "http-server": "^14.1.1"
+  }
+}
