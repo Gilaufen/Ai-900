@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+body{
+    background-color: rgb(49, 49, 49);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.analize-box, .container{
+    margin-top: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    width: 40%;
+    height: 150%;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 30px;
+    border: 2px solid aqua;
+    margin-left: 5%;
+}
+
+input{
+    padding: 2%;
+    border-radius: 5px;
+    width: 60%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+
+button{
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 5%;
+    padding: 2%;
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.b{
+    margin-bottom: 5%;
+}
