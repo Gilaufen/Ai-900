@@ -23,7 +23,7 @@ if (
 }
 
 // url de imagen para probar
-const img = "https://th.bing.com/th/id/R.c4a5c9c87ecbb954d2ae2ecea3c86464?rik=YMfEKqV6Fm%2f9lg&pid=ImgRaw&r=0";
+const img = "";
 
 const headers = {
   "Prediction-Key": PREDICTION_KEY,
