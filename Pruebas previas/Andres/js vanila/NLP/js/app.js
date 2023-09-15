@@ -1,8 +1,8 @@
 // const axios = require("axios").default;
 
-const URL_ENDPOINT_TRADUCCION = "https://api.cognitive.microsofttranslator.com";
-const KEY_ENPOINT_TRADUCCION = "65c5f3d11b5d4dfdab331ddda5936ac2";
-const LOCATION = "eastus";
+const URL_ENDPOINT_TRADUCCION = "URL_HERE";
+const KEY_ENPOINT_TRADUCCION = "KEY_HERE";
+const LOCATION = "LOCATION_HERE";
 
 const btn = document.getElementById("translateBtn");
 const input = document.getElementById("inputText");
