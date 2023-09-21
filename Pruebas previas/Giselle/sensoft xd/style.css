@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;   
+}
+
+.reunion{
+    width: 90%;
+    height: 700px;
+    display: flex;
+    border-radius: 50px;
+}
+
